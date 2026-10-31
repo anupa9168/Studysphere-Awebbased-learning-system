@@ -1,0 +1,87 @@
+﻿/* =====================================================
+   1. GENERAL SETTINGS (shared across all Admin pages)
+===================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F8FC;
+    color: #333333;
+}
+
+/* =====================================================
+   2. LOGIN PAGE (used by AdminLogin.aspx)
+===================================================== */
+.login-box {
+    width: 380px;
+    margin: 80px auto;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px lightgray;
+}
+
+.logo {
+    width: 120px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.login-box h2 {
+    text-align: center;
+    color: #0756A5;
+    margin-bottom: 25px;
+}
+
+.login-box label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0756A5;
+    font-weight: bold;
+}
+
+.login-box input[type=text],
+.login-box input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+    .login-box input[type=text]:focus,
+    .login-box input[type=password]:focus {
+        border: 2px solid #0756A5;
+        outline: none;
+    }
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #0756A5;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+    .btn:hover {
+        background-color: #123F73;
+    }
+
+.message {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}

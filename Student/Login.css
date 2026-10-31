@@ -1,0 +1,127 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef6ff;
+}
+
+/* Login Box */
+
+.login-box {
+    width: 380px;
+    margin: 70px auto;
+    padding: 35px;
+    background: white;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #d5d5d5;
+}
+
+/* Logo */
+
+.logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+/* Heading */
+
+h1 {
+    color: #075eaf;
+    margin: 5px 0;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* Input */
+
+.input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+    .input:focus {
+        border-color: #075eaf;
+        outline: none;
+    }
+
+/* Login Button */
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #075eaf;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+    .login-btn:hover {
+        background: #064d91;
+    }
+
+/* Error Message */
+
+.message {
+    display: block;
+    color: red;
+    margin-bottom: 10px;
+}
+
+/* Register */
+
+.register {
+    color: #666;
+    margin-top: 20px;
+}
+
+    .register a {
+        color: #075eaf;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+/* Administrator Login */
+
+.admin-login {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    color: #666;
+    font-size: 14px;
+}
+
+    .admin-login a {
+        display: block;
+        margin-top: 7px;
+        color: #20B24B;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .admin-login a:hover {
+            color: #188c3b;
+        }
+
+/* Home Link */
+
+.home-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #075eaf;
+    text-decoration: none;
+    font-size: 14px;
+}
